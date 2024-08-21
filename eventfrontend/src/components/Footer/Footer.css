@@ -1,0 +1,101 @@
+/* Footer.css */
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center; /* Başlıklar ve içerik ortalanır */
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    display: inline-block; /* Çizginin başlıkla birlikte ortalanmasını sağlar */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-icons, .payment-icons {
+    display: flex;
+    justify-content: center; /* İkonların ortalanması */
+    padding-top: 10px;
+}
+
+.social-icons li, .payment-icons li {
+    margin-right: 15px;
+}
+
+.social-icons li a, .payment-icons li a {
+    font-size: 30px; /* İkon boyutları büyütüldü */
+    color: #bbb;
+    text-decoration: none;
+}
+
+.social-icons li a:hover, .payment-icons li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        padding: 0;
+    }
+
+    .social-icons, .payment-icons {
+        justify-content: center;
+    }
+}
