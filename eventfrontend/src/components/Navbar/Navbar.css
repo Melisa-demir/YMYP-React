@@ -6,12 +6,13 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 12px 7%;
+    padding: 12px ;
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
+.logo { 
+    padding-left: 8px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -50,6 +51,7 @@
     align-self: center;
     background: #242424;
     height: 40px;
+    margin-right: 8px ;
     padding: 6px 20px;
     border-radius: 50px;
 }
